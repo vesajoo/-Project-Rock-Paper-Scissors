@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1F2937;
+    color: #E4E7EB;
+}
+
+h1 {
+    font-size:300%;
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:50px;
+}
+
+.game, .score{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 300px;
+}
+
+.game div{
+    width: 400px;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playerSelection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    height: 100px;
+    width: 150px;
+    border-radius: 10%;
+    background:none;
+    border-width: 5px;
+    border-color: #3882F6;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+img {
+    margin:auto;
+    width: 50%;
+}
